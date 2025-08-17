@@ -11,6 +11,7 @@
     "server": "node server.js",
     "start": "concurrently \"npm run server\" \"npm run dev\"",
     "build:full": "vite build && npm run build:server",
+    "build:server": "node -e \"console.log('Server build complete - using server.js directly')\"",
     "start:prod": "node server.js"
   },
   "dependencies": {
